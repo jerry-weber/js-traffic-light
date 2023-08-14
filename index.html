@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript.js" defer></script>
+  </head>
+
+  <body>
+    <div class="background-color">
+      <h1 class="traffic-light-para">Traffic Light</h1>
+      <div class="button-container">
+        <div class="d-flex flex-column">
+          <button class="stop-color" id="stopButton" onclick="stopButton()">
+            Stop
+          </button>
+          <button class="stop-color" id="readyButton" onclick="readyButton()">
+            Ready
+          </button>
+          <button class="stop-color" id="goButton" onclick="goButton()">
+            Go
+          </button>
+          <button
+            class="stop-color"
+            id="automaticButton"
+            onclick="toggleAutomaticMode()"
+          >
+            Automatic
+          </button>
+        </div>
+
+        <div class="container-color">
+          <div class="container-body" id="stopLight"></div>
+          <div class="container-body" id="readyLight"></div>
+          <div class="container-body" id="goLight"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

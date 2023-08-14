@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Your existing CSS styles */
+
+.background-color {
+  background-image: url("background-photo.jpg"); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ... (rest of your CSS code remains the same) */
+
+.traffic-light-para {
+  color: yellow;
+  text-align: center;
+  margin: 12px;
+  font-family: "Caveat", cursive;
+  font-size: 125px;
+  font-weight: bold;
+}
+
+.stop-color {
+  background-color: #1f1d41;
+  height: 65px;
+  width: 65px;
+  color: white;
+  text-align: center;
+  border-color: none;
+  border-radius: 25px;
+  margin: 25px;
+}
+
+.container-color {
+  background-color: #1f1d41;
+  height: 58vh;
+  width: 360px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; /* or use space-around */
+}
+
+.container-body {
+  background-color: #4b5069;
+  border-radius: 107.5px;
+  height: 215px;
+  width: 215px;
+  text-align: center;
+  margin: 30px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stop {
+  background-color: red;
+}
+
+.ready {
+  background-color: yellow;
+}
+
+.go {
+  background-color: green;
+}
